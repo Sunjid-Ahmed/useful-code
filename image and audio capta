@@ -1,0 +1,21 @@
+Image Captcha: 
+
+from captcha.image import  ImageCaptcha 
+
+image = ImageCaptcha 
+
+data = image.generate(‘9876543’) 
+
+image.write (‘9876543’,’sam.png’) 
+
+ 
+
+#Audio Captcha: 
+
+from  captcha.audio  import  AudioCaptcha 
+
+audiofile = AudioCaptcha 
+
+data = audiofile.generate(‘543’) 
+
+audiofile.write (‘543’,’hello.png’) 
